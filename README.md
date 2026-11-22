@@ -14,11 +14,6 @@
   Built with deep learning technology, featuring face detection, facial landmarks, feature extraction, and face similarity comparison.
 </p>
 
-<strong>
-  Improved Recognition Accuracy Through Further Training and Optimization of
-  <a href="https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK" target="_blank">FacePlugin's Open-Source Face Recognition Model</a>
-</strong>
-
 ---
 
 ## 🚀 Overview
@@ -26,8 +21,6 @@
 The **Open Source Face Recognition SDK** is a free, privacy-focused solution designed to integrate face recognition capabilities into applications running on Windows and Linux.
 
 Powered by deep learning models, this SDK provides face detection, facial feature extraction, and face similarity comparison through a simple Python interface.
-
-The recognition model has been further trained using FacePlugin's model as a starting point to improve recognition accuracy.
 
 **Privacy is a priority:** All biometric processing takes place locally, allowing applications to operate without sending facial data to external servers.
 
@@ -173,22 +166,6 @@ else:
 
 **Note:** The similarity threshold of 75 is an example configuration. The appropriate threshold should be validated against your application, dataset, and operating conditions.
 
-## 🏆 Face Recognition Benchmark Comparison
-
-We conducted comparative evaluations between **nataphong-lab** and **FacePlugin** using multiple face recognition benchmark datasets.
-
-Our results demonstrate that the nataphong-lab model achieves **15%+ higher recognition accuracy** than FacePlugin across the evaluated benchmarks.
-
-### 📊 Benchmark Results
-
-| Benchmark Dataset | nataphong-lab | FacePlugin | Performance Improvement |
-|---|---:|---:|---:|
-| LFW | 98.5 | 89.2 | 9.3 |
-| CFP-FP | 99.1 | 90.1 | 9 |
-| AgeDB-30 | 99.2 | 76.8 | 22.4 |
-| CALFW | 98.1 | 80.3 | 17.8 |
-| CPLFW | 96.5 | 78.9 | 17.6 |
-| Average | 98.28 | 83.06 | 15.22 |
 
 ---
 
