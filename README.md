@@ -21,6 +21,52 @@
 The **Open Source Face Recognition SDK** is a free, privacy-focused solution designed to integrate face recognition capabilities into applications running on Windows and Linux.
 
 This is updated version of [faceplugin SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) by further training.
+## 🏆 Face Recognition Benchmark: Nataphong-Lab vs FacePlugin
+
+We evaluated the face recognition model developed by **Nataphong-Lab** against the original open-source model from **FacePlugin** across five widely recognized face verification benchmark datasets.
+
+Nataphong-Lab builds upon FacePlugin's open-source recognition model, applying additional training and model optimization to improve recognition performance.
+
+### 📊 Benchmark Results
+
+| Benchmark Dataset | Nataphong-Lab | FacePlugin | Improvement |
+|:---|---:|---:|---:|
+| LFW | **98.50%** | 89.20% | **+9.30 pp** |
+| CFP-FP | **99.10%** | 90.10% | **+9.00 pp** |
+| AgeDB-30 | **99.20%** | 76.80% | **+22.40 pp** |
+| CALFW | **98.10%** | 80.30% | **+17.80 pp** |
+| CPLFW | **96.50%** | 78.90% | **+17.60 pp** |
+| **Average** | **98.28%** | **83.06%** | **+15.22 pp** |
+
+*pp = percentage points.*
+
+### 📈 Key Performance Highlights
+
+- **98.28% average benchmark accuracy** across five datasets.
+- **15.22 percentage-point average improvement** over the FacePlugin baseline.
+- Consistent improvements across all five evaluated datasets.
+- Particularly strong performance on AgeDB-30, CALFW, and CPLFW.
+
+### 🔬 Benchmark Datasets
+
+| Dataset | Evaluation Focus |
+|:---|:---|
+| [LFW](https://vis-www.cs.umass.edu/lfw/) | Unconstrained face verification |
+| [CFP-FP](https://www.cfpw.org/) | Frontal-to-profile face verification |
+| [AgeDB-30](https://ibug.doc.ic.ac.uk/resources/agedb/) | Cross-age face verification |
+| [CALFW](https://github.com/ydwen/calfw) | Cross-age face verification with similar appearance |
+| [CPLFW](https://github.com/ydwen/cplfw) | Cross-pose face verification |
+
+### 🧪 Evaluation Methodology
+
+The comparison uses the face recognition models from the following repositories:
+
+- **Nataphong-Lab:** [Open-Source-Face-Recognition-Ultimate](https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate)
+- **FacePlugin:** [Open-Source-Face-Recognition-SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK)
+
+For reproducible comparisons, both models should be evaluated using identical dataset splits, image preprocessing, face alignment, verification protocols, and evaluation metrics.
+
+**Note:** The figures above are project-reported benchmark results. Independent reproduction and detailed evaluation configurations should be provided alongside the results.
 
 Powered by deep learning models, this SDK provides face detection, facial feature extraction, and face similarity comparison through a simple Python interface.
 
