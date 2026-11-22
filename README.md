@@ -20,6 +20,8 @@
 
 The **Open Source Face Recognition SDK** is a free, privacy-focused solution designed to integrate face recognition capabilities into applications running on Windows and Linux.
 
+This is updated version of [faceplugin SDK](https://github.com/Faceplugin-ltd/Open-Source-Face-Recognition-SDK) by further training.
+
 Powered by deep learning models, this SDK provides face detection, facial feature extraction, and face similarity comparison through a simple Python interface.
 
 **Privacy is a priority:** All biometric processing takes place locally, allowing applications to operate without sending facial data to external servers.
