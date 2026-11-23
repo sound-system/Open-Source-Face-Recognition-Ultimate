@@ -112,7 +112,7 @@ git clone https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate
 cd Open-Source-Face-Recognition-Ultimate
 ```
 
-### 2. Install Python and Necessary Environment
+### 2. Install Python and Necessary Dependencies
 
 Run the following command from the repository directory:
 
@@ -129,13 +129,7 @@ conda create -n facesdk python=3.9 -y
 conda activate facesdk
 ```
 
-### 4. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Run the Application
+### 4. Run the Application
 
 ```bash
 python run.py
